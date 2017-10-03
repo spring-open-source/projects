@@ -18,8 +18,8 @@
   
     <appender name="file" class="org.apache.log4j.RollingFileAppender">    
         <param name="append" value="true"/>  
-        <param name="threshold" value="debug" />
-        <param name="file" value="example.html"/>
+        <param name="threshold" value="DEBUG"/>
+        <param name="file" value="example.log"/>
         <param name="MaxFileSize" value="100KB"/>
         <!-- Keep one backup file -->
         <param name="MaxBackupIndex" value="1"/>
@@ -38,15 +38,35 @@
         </layout> 
         -->
     </appender> 
+    
+    <appender name="dfile" class="org.apache.log4j.DailyRollingFileAppender">    
+        <param name="append" value="true"/>  
+        <param name="threshold" value="debug" />
+        <param name="file" value="example_d.log"/>        
+        <!--Normal Layout-->
+        <layout class="org.apache.log4j.PatternLayout"> 
+            <param name="ConversionPattern" value="%d [%t] [%-5p] [%c:%L] - %m%n"/> 
+            <!--
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n" />
+            -->
+        </layout> 
+        <!--Html layout
+        <layout class="org.apache.log4j.HTMLLayout"> 
+            <param name="title" value="Logs"/>
+            <param name="localtionInfo" value="true"/>       
+            <param name="ConversionPattern" value="%d [%t] [%-5p] [%c:%L] - %m%n"/>     
+        </layout> 
+        -->
+    </appender> 
   
-   <logger name="log4jexample.SepcialLogger">
-        <level value="debug"/>
-        <appender-ref ref="file"/>
+    <logger name="log4jexample.SpecialLogger" additivity="true">
+        <level value="WARN"/>   
+        <appender-ref ref="dfile"/>          
     </logger>
     
     <root> 
-        <priority value ="debug" /> 
-        <appender-ref ref="console" /> 
-        <appender-ref ref="file" /> 
+        <priority value ="DEBUG" /> 
+        <appender-ref ref="console" />   
+        <appender-ref ref="file"/>                          
     </root>
 </log4j:configuration>

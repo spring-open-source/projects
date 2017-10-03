@@ -1,0 +1,217 @@
+2017-10-03 12:22:03,252 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:03,252 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:03,253 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:03,253 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:03,776 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:03,778 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyong
+2017-10-03 12:22:03,778 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:03,778 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyong
+2017-10-03 12:22:03,778 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:03,779 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:03,780 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:03,781 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:03,781 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:03,781 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:04,231 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:04,233 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyon
+2017-10-03 12:22:04,233 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:04,233 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyo
+2017-10-03 12:22:04,233 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:04,235 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:04,236 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:04,236 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:04,236 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:04,236 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:04,705 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:04,706 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyong
+2017-10-03 12:22:04,707 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:04,707 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyong
+2017-10-03 12:22:04,707 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:04,708 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:04,709 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:04,709 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:04,709 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:04,709 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:05,158 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:05,160 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyong
+2017-10-03 12:22:05,160 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:05,160 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyong
+2017-10-03 12:22:05,161 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:05,162 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:05,163 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:05,163 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:05,163 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:05,164 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:05,625 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:05,627 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyong
+2017-10-03 12:22:05,627 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:05,627 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyong
+2017-10-03 12:22:05,627 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:05,629 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:05,630 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:05,630 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:05,630 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:05,630 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:06,085 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:06,087 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyong
+2017-10-03 12:22:06,087 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:06,087 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyong
+2017-10-03 12:22:06,087 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:06,089 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:06,090 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:06,090 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:06,090 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:06,090 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:06,545 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:06,547 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyong
+2017-10-03 12:22:06,547 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:06,547 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyong
+2017-10-03 12:22:06,547 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:06,549 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:06,550 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:06,550 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:06,550 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:06,550 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:06,971 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:06,973 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyong
+2017-10-03 12:22:06,973 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:06,973 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyong
+2017-10-03 12:22:06,973 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:06,974 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:06,975 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:06,975 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:06,976 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:06,976 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:07,448 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:07,450 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyong
+2017-10-03 12:22:07,450 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:07,451 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyong
+2017-10-03 12:22:07,451 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:07,452 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:07,453 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:07,453 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:07,453 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:07,453 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:07,889 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:07,891 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyong
+2017-10-03 12:22:07,891 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:07,891 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyong
+2017-10-03 12:22:07,892 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:07,893 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:07,894 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:07,894 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:07,894 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:07,894 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+2017-10-03 12:22:08,318 [main] [DEBUG] [log4jexample.Log4jExample:29] - This is debug : mkyong
+2017-10-03 12:22:08,320 [main] [INFO ] [log4jexample.Log4jExample:33] - This is info : mkyong
+2017-10-03 12:22:08,320 [main] [WARN ] [log4jexample.Log4jExample:36] - This is warn : mkyong
+2017-10-03 12:22:08,320 [main] [ERROR] [log4jexample.Log4jExample:37] - This is error : mkyong
+2017-10-03 12:22:08,321 [main] [FATAL] [log4jexample.Log4jExample:38] - This is fatal : mkyong
+2017-10-03 12:22:08,322 [main] [DEBUG] [log4jexample.SpecialLogger:21] - This is debug : log4jexample.SpecialLogger
+2017-10-03 12:22:08,323 [main] [INFO ] [log4jexample.SpecialLogger:25] - This is info : log4jexample.SpecialLogger
+2017-10-03 12:22:08,323 [main] [WARN ] [log4jexample.SpecialLogger:28] - This is warn : log4jexample.SpecialLogger
+2017-10-03 12:22:08,323 [main] [ERROR] [log4jexample.SpecialLogger:29] - This is error : log4jexample.SpecialLogger
+2017-10-03 12:22:08,323 [main] [FATAL] [log4jexample.SpecialLogger:30] - This is fatal : log4jexample.SpecialLogger
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Logs</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Oct 03 13:31:23 IST 2017<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="log4jexample.Log4jExample category">log4jexample.Log4jExample</td>
+<td title="Message">This is debug : mkyong</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="log4jexample.Log4jExample category">log4jexample.Log4jExample</td>
+<td title="Message">This is info : mkyong</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="log4jexample.Log4jExample category">log4jexample.Log4jExample</td>
+<td title="Message">This is warn : mkyong</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="log4jexample.Log4jExample category">log4jexample.Log4jExample</td>
+<td title="Message">This is error : mkyong</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>FATAL</strong></font></td>
+<td title="log4jexample.Log4jExample category">log4jexample.Log4jExample</td>
+<td title="Message">This is fatal : mkyong</td>
+</tr>
+
+<tr>
+<td>30</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="log4jexample.SpecialLogger category">log4jexample.SpecialLogger</td>
+<td title="Message">This is debug : log4jexample.SpecialLogger</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="log4jexample.SpecialLogger category">log4jexample.SpecialLogger</td>
+<td title="Message">This is info : log4jexample.SpecialLogger</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>WARN</strong></font></td>
+<td title="log4jexample.SpecialLogger category">log4jexample.SpecialLogger</td>
+<td title="Message">This is warn : log4jexample.SpecialLogger</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="log4jexample.SpecialLogger category">log4jexample.SpecialLogger</td>
+<td title="Message">This is error : log4jexample.SpecialLogger</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>FATAL</strong></font></td>
+<td title="log4jexample.SpecialLogger category">log4jexample.SpecialLogger</td>
+<td title="Message">This is fatal : log4jexample.SpecialLogger</td>
+</tr>

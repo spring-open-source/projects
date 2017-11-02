@@ -1,0 +1,68 @@
+<project name="WebTemplates" default="package">
+
+    <target name="init">
+        <property name="name"                   value="${ant.project.name}"/>
+        <property name="title"                  value="Stack Hunter - Web Templates"/>
+        <property name="version"                value="1.0.0"/>
+        <property name="baseArchiveName"        value="StackHunter-WebTemplates"/>
+        <property name="javaSourceDir"          value="src" />
+        <property name="classDir"               value="build/classes" />
+        <property name="deployDir"              value="dist" />
+
+        <patternset id="sourcePattern">
+            <include name="**/*.java"/>
+        </patternset >
+
+        <path id="classpath">
+          <fileset dir="lib">
+            <include name="**/*.jar"/>
+          </fileset>
+        </path>
+
+        <tstamp>
+           <format property="timestamp" pattern="yyyy.MM.dd-HH.mm.ss" />
+           <format property="year" pattern="yyyy" />
+        </tstamp>
+
+        <echo message="Build started: ${timestamp}" />
+    </target>
+
+
+    <target name="clean" depends="init">
+        <delete includeEmptyDirs="true" verbose="true">
+             <fileset dir="." includes="${classDir}/**/*"/>
+             <fileset dir="." includes="${deployDir}/**/*"/>
+        </delete>
+    </target>
+
+    <target name="prepare" depends="clean">
+        <mkdir dir="${classDir}" />
+    </target>
+
+    <target name="compile" depends="prepare">
+        <javac srcdir="${javaSourceDir}" 
+               destdir="${classDir}" 
+               source="1.5"
+               target="1.5"
+               optimize="false"
+               debug="true"
+               debuglevel="lines,vars,source"
+        >
+            <patternset refid="sourcePattern" />
+            <classpath refid="classpath" />
+        </javac>
+        <echo message="compile finished: ${timestamp}" />
+    </target>
+
+
+    <target name="package" depends="compile">
+        <jar destfile="${deployDir}/${baseArchiveName}-${version}.jar" update="false">
+            <zipfileset  dir="${classDir}">
+                <include name="**/*.class"/>
+            </zipfileset>
+        </jar>
+
+        <echo message="Package finished: ${timestamp}" />
+    </target>
+
+</project>

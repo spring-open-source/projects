@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/spring-jdbc-4.0.1.RELEASE.jar" sourcepath="lib/spring-jdbc-4.0.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-4.0.1.RELEASE.jar" sourcepath="lib/spring-tx-4.0.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-4.0.1.RELEASE.jar" sourcepath="lib/spring-core-4.0.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar" sourcepath="lib/log4j-1.2.16.zip"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

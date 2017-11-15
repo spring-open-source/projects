@@ -1,11 +1,12 @@
 package com.mycompany.javamustache;
 
 import com.github.mustachejava.Mustache;
-import gui.ava.html.image.generator.HtmlImageGenerator;
+import gui.ava.html.image.HtmlImageGenerator;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.HashMap;
 import java.util.Map;
+import org.apache.commons.lang.StringUtils;
 
 /**
  *
@@ -13,7 +14,7 @@ import java.util.Map;
  */
 public class Main
 {
-    
+
     public static void main(String[] args) throws IOException
     {
         Todo todo = new Todo("Todo 1", "Todo description");
@@ -23,26 +24,26 @@ public class Main
         context.put("title", todo.getTitle());
         context.put("description", todo.getText());
         context.put("createdOn", todo.getCreatedOn());
-        
+
         StringWriter writer = new StringWriter();
         m.execute(writer, context).flush();
         String html = writer.getBuffer().toString();
-        
+
         System.out.println(m.execute(writer, m));
 
-        convrtHtmlToImage("");
+        convrtHtmlToImage(html);
         //String expected = "<h2>Todo 1</h2>";
         //assertThat(executeTemplate(m, todo)).contains(expected);
     }
-    
+
     public static void convrtHtmlToImage(String html)
     {
         HtmlImageGenerator imageGenerator = new HtmlImageGenerator();
-        imageGenerator.loadHtml(
-                "Hello World! Please goto <a title=\"Goto Google\""
+        imageGenerator.loadHtml(!StringUtils.EMPTY.equals(html) ? html
+                : "Hello World! Please goto <a title=\"Goto Google\""
                 + " href=\"http://www.google.com\">Google.");
         imageGenerator.saveAsImage("hello-world.png");
         imageGenerator.saveAsHtmlWithMap("hello-world.html", "hello-world.png");
     }
-    
+
 }

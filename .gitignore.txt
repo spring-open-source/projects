@@ -2,3 +2,4 @@ target/
 mvn/
 build/
 dist/
+*.class

@@ -3,3 +3,4 @@ mvn/
 build/
 dist/
 *.class
+.test

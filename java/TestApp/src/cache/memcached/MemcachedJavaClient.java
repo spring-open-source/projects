@@ -18,7 +18,7 @@ public class MemcachedJavaClient
         //initialize the SockIOPool that maintains the Memcached Server Connection Pool
         String[] servers =
         {
-            "localhost:11111"
+            "127.0.0.1:11214"
         };
         SockIOPool pool = SockIOPool.getInstance("Test1");
         pool.setServers(servers);

@@ -81,7 +81,7 @@ public class SpyMemcachedClient
     public static void main(String args[]) throws InterruptedException, ExecutionException
     {
         /* Get MemcachedClient */
-        InetSocketAddress address = new InetSocketAddress("127.0.0.1", 11211);
+        InetSocketAddress address = new InetSocketAddress("127.0.0.1", 11214);
 
         Optional<MemcachedClient> client = SpyMemcachedClient.getClient(address);
 
